@@ -23,18 +23,21 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/app/assets"
+              "src/assets"
             ],
             "styles": [
               "node_modules/bootstrap/scss/bootstrap.scss",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "src/app/assets/css/fontawesome.css",
-              "src/app/assets/css/templatemo-style.css",
-              "src/app/assets/css/owl.css",
-              "src/app/assets/css/lightbox.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/templatemo-style.css",
+              "src/assets/css/owl.css",
+              "src/assets/css/lightbox.css",
               "src/styles.css"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/jquery/dist/jquery.min.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -94,18 +97,21 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/app/assets"
+              "src/assets"
             ],
             "styles": [
               "node_modules/bootstrap/scss/bootstrap.scss",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "src/app/assets/css/fontawesome.css",
-              "src/app/assets/css/templatemo-style.css",
-              "src/app/assets/css/owl.css",
-              "src/app/assets/css/lightbox.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/templatemo-style.css",
+              "src/assets/css/owl.css",
+              "src/assets/css/lightbox.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           }
         },
         "deploy": {
