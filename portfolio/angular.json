@@ -22,11 +22,16 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app/assets"
             ],
             "styles": [
               "node_modules/bootstrap/scss/bootstrap.scss",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "src/app/assets/css/fontawesome.css",
+              "src/app/assets/css/templatemo-style.css",
+              "src/app/assets/css/owl.css",
+              "src/app/assets/css/lightbox.css",
               "src/styles.css"
             ],
             "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
@@ -88,9 +93,16 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "src/app/assets/css/fontawesome.css",
+              "src/app/assets/css/templatemo-style.css",
+              "src/app/assets/css/owl.css",
+              "src/app/assets/css/lightbox.css",
               "src/styles.css"
             ],
             "scripts": []
