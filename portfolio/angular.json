@@ -30,13 +30,19 @@
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "src/assets/css/fontawesome.css",
               "src/assets/css/templatemo-style.css",
-              "src/assets/css/owl.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
               "src/assets/css/lightbox.css",
               "src/styles.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/jquery/dist/jquery.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/isotope.min.js",
+              "src/assets/js/lightbox.js",
+              "src/assets/js/owl-carousel.js"
+
             ],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -104,13 +110,18 @@
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "src/assets/css/fontawesome.css",
               "src/assets/css/templatemo-style.css",
-              "src/assets/css/owl.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
               "src/assets/css/lightbox.css",
               "src/styles.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/jquery/dist/jquery.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/isotope.min.js",
+              "src/assets/js/lightbox.js",
+              "src/assets/js/owl-carousel.js"
             ]
           }
         },
